@@ -118,17 +118,17 @@ export default function InstagramFeed() {
                   onMouseLeave={() => pauseVideo(index)}
                   className="group relative overflow-hidden rounded-xl cursor-pointer"
                 >
-                  <video
-                    ref={(el) => (videoRefs.current[index] = el)}
-                    muted
-                    loop
-                    playsInline
-                    preload="metadata"
-                    className="w-full h-[520px] object-cover transition-transform duration-700 group-hover:scale-110"
-                  >
-                    <source src={video} type="video/mp4" />
-                  </video>
-
+                 <video
+  ref={(el) => (videoRefs.current[index] = el)}
+  muted
+  loop
+  autoPlay
+  playsInline
+  preload="auto"
+  className="w-full h-[420px] md:h-[520px] object-cover transition-transform duration-700 group-hover:scale-110"
+>
+  <source src={video} type="video/mp4" />
+</video>
                   {/* Overlay */}
 
                   <div className="absolute inset-0 bg-black/15 opacity-0 group-hover:opacity-100 transition duration-300" />
