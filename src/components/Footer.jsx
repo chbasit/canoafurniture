@@ -15,20 +15,21 @@ export default function Footer() {
           {/* Left Side */}
           <div className="px-6 md:px-12 lg:px-16 py-16 lg:border-r border-white/20">
             {/* Logo */}
-            <h2 className="font-fustat text-4xl font-light tracking-[8px] mb-12">
-              CANOA
-            </h2>
+          {/* Logo */}
+<h2 className="font-fustat text-4xl font-light tracking-[8px] mb-12">
+  Home آرٹس Studio
+</h2>
 
-            {/* Heading */}
-            <h3 className="text-3xl md:text-4xl font-light leading-tight max-w-lg">
-              Design • Customize • Deliver
-            </h3>
+{/* Heading */}
+<h3 className="text-3xl md:text-4xl font-light leading-tight max-w-lg">
+  Furniture • Interior • Corian
+</h3>
 
-            <p className="mt-6 text-white/80 text-lg leading-8 max-w-md">
-              Bespoke Luxury Furniture & Interiors
-              <br />
-              Nationwide Delivery Across Pakistan 🇵🇰
-            </p>
+<p className="mt-6 text-white/80 text-lg leading-8 max-w-md">
+  Premium Furniture, Interior Solutions & Corian Designs
+  <br />
+  Shanghai Road, Near Punjab Society, Lahore
+</p>
 
             {/* Newsletter */}
             <form className="mt-12 max-w-md">
@@ -50,8 +51,8 @@ export default function Footer() {
 
             {/* Copyright */}
             <p className="mt-14 text-sm text-white/70">
-              © {new Date().getFullYear()} Canoa Furniture. All rights reserved.
-            </p>
+  © {new Date().getFullYear()} Home آرٹس Studio. All rights reserved.
+</p>
 
             {/* Social Icons */}
             <div className="flex items-center gap-7 mt-16 text-2xl">
@@ -99,119 +100,47 @@ export default function Footer() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
               {/* Collections */}
               <div>
-                <h4 className="text-lg mb-8 font-medium">
-                  Collections
-                </h4>
+             <h4 className="text-lg mb-8 font-medium">
+  Products
+</h4>
 
-                <ul className="space-y-4 text-white/75">
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Sofas
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Dining Tables
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Coffee Tables
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Beds
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Wardrobes
-                    </a>
-                  </li>
-                </ul>
+<ul className="space-y-4 text-white/75">
+  <li><a href="#" className="hover:text-white">Furniture</a></li>
+  <li><a href="#" className="hover:text-white">Interior</a></li>
+  <li><a href="#" className="hover:text-white">Corian</a></li>
+  <li><a href="#" className="hover:text-white">Custom Designs</a></li>
+  <li><a href="#" className="hover:text-white">Home Decor</a></li>
+</ul>
               </div>
 
               {/* Services */}
               <div>
-                <h4 className="text-lg mb-8 font-medium">
-                  Services
-                </h4>
+              <h4 className="text-lg mb-8 font-medium">
+  Services
+</h4>
 
-                <ul className="space-y-4 text-white/75">
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Custom Furniture
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Interior Design
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Space Planning
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Home Consultation
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Nationwide Delivery
-                    </a>
-                  </li>
-                </ul>
+<ul className="space-y-4 text-white/75">
+  <li><a href="#" className="hover:text-white">Furniture Design</a></li>
+  <li><a href="#" className="hover:text-white">Interior Designing</a></li>
+  <li><a href="#" className="hover:text-white">Corian Installation</a></li>
+  <li><a href="#" className="hover:text-white">Site Consultation</a></li>
+  <li><a href="#" className="hover:text-white">Project Execution</a></li>
+</ul>
               </div>
 
               {/* Company */}
               <div>
-                <h4 className="text-lg mb-8 font-medium">
-                  Company
-                </h4>
+               <h4 className="text-lg mb-8 font-medium">
+  Contact
+</h4>
 
-                <ul className="space-y-4 text-white/75">
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      About Us
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Projects
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Testimonials
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      Contact Us
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="hover:text-white">
-                      +92 335 6590332
-                    </a>
-                  </li>
-                </ul>
+<ul className="space-y-4 text-white/75">
+  <li><a href="#" className="hover:text-white">About Us</a></li>
+  <li><a href="#" className="hover:text-white">Our Projects</a></li>
+  <li><a href="#" className="hover:text-white">Gallery</a></li>
+  <li><a href="#" className="hover:text-white">Shanghai Road, Near Punjab Society, Lahore</a></li>
+  <li><a href="tel:+923074465983" className="hover:text-white">+92 307 4465983</a></li>
+</ul>
               </div>
             </div>
 
@@ -232,8 +161,8 @@ export default function Footer() {
               </div>
 
               <p className="text-sm">
-                Crafted with passion by Canoa Furniture.
-              </p>
+  Crafted with passion by Home آرٹس Studio.
+</p>
             </div>
           </div>
         </div>

@@ -15,31 +15,31 @@ const testimonials = [
     name: "Ahmed Raza",
     city: "Lahore",
     review:
-      "The quality exceeded our expectations. Every detail feels luxurious and the craftsmanship is outstanding. Highly recommended.",
+      "Excellent interior finishing and premium sanitary products. The team was professional, and the quality exceeded our expectations.",
   },
   {
     name: "Sarah Khan",
     city: "Karachi",
     review:
-      "From consultation to delivery, the experience was seamless. The furniture completely transformed our living room.",
+      "Our kitchen and Corian countertops turned out beautifully. The attention to detail and timely installation were outstanding.",
   },
   {
     name: "Usman Ali",
     city: "Islamabad",
     review:
-      "Beautiful modern furniture with exceptional finishing. The customer service was equally impressive.",
+      "We purchased sanitary fittings and interior materials for our home. Everything was genuine, high quality, and reasonably priced.",
   },
   {
     name: "Ayesha Noor",
     city: "Multan",
     review:
-      "Premium quality, elegant design, and timely delivery. Canoa Furniture truly understands luxury interiors.",
+      "Home آرٹس Studio helped us redesign our home with elegant interiors and modern sanitary solutions. Highly satisfied with the results.",
   },
   {
     name: "Bilal Hassan",
     city: "Faisalabad",
     review:
-      "Every visitor compliments our furniture. The attention to detail is simply amazing.",
+      "From Corian work to interior finishing, every part of the project was completed with exceptional craftsmanship and professionalism.",
   },
 ];
 

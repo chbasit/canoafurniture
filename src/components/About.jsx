@@ -1,6 +1,6 @@
 import about1 from "../assets/images/about.webp";
-import about2 from "../assets/images/about1.webp";
-import about3 from "../assets/images/about2.webp";
+import about2 from "../assets/images/17.webp";
+import about3 from "../assets/images/12.jpeg";
 
 const items = [
   {
@@ -25,7 +25,7 @@ export default function About() {
 
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="font-fustat text-white text-2xl md:text-5xl font-medium">
-            About Canoa Furniture
+            About Home Art Studio 
           </h2>
 
           <p className="mt-5 text-sm md:text-base  uppercase text-white/70">
@@ -35,7 +35,7 @@ export default function About() {
          
            <p className="text-white text-md font-regular leading-8 mt-4">
             From bespoke sofas and elegant dining collections to custom storage
-            solutions and luxury bedroom furniture, Canoa Furniture is dedicated
+            solutions and luxury bedroom furniture, Home Art Studio is dedicated
             to transforming living spaces with timeless elegance. Our commitment
             to quality, innovation, and personalized design ensures every piece
             becomes a lasting part of your home and lifestyle.
@@ -66,7 +66,7 @@ export default function About() {
 
         <div className="max-w-5xl mx-auto text-center mt-16">
            <p className="mt-10 text-lg md:text-2xl font-semibold text-white">
-            AtCanoa Furniture,
+            Home Art Studio ,
             we create thoughtfully designed furniture that balances modern
             aesthetics with everyday comfort. Every collection is developed with
             careful attention to proportion, premium materials, and skilled

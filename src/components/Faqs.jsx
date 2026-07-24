@@ -3,34 +3,34 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "Do you offer custom furniture designs?",
+    question: "What services does Home آرٹس Studio provide?",
     answer:
-      "Yes. Every project can be customized to your preferred dimensions, materials, colors, and finishes to perfectly complement your space.",
+      "We specialize in custom furniture, interior designing, Corian work, wardrobes, TV units, kitchens, office interiors, and complete space transformations.",
   },
   {
-    question: "How long does production and delivery take?",
+    question: "Do you create custom furniture and interior designs?",
     answer:
-      "Production generally takes 3–6 weeks depending on the design. We provide nationwide delivery across Pakistan with careful installation.",
+      "Yes. Every project is designed according to your space, style, and requirements, with customized sizes, materials, colors, and finishes.",
   },
   {
-    question: "What materials do you use?",
+    question: "What is Corian, and do you install it?",
     answer:
-      "We use premium hardwood, engineered wood, imported fabrics, natural stone, tempered glass, and high-quality hardware for lasting durability.",
+      "Yes. We provide premium Corian countertops, reception desks, vanity tops, wall cladding, and other custom Corian installations for residential and commercial projects.",
   },
   {
-    question: "Do you provide interior design consultation?",
+    question: "How long does a project take to complete?",
     answer:
-      "Absolutely. Our design experts help you choose furniture, layouts, colors, and finishes to create a cohesive luxury interior.",
+      "Project timelines depend on the scope of work. Most furniture and interior projects are completed within 2–6 weeks after design approval.",
   },
   {
     question: "Can I visit your showroom?",
     answer:
-      "Yes. You're welcome to visit our showroom to experience our collections, materials, and craftsmanship in person.",
+      "Absolutely. Visit our showroom on Shanghai Road, Near Punjab Society, Lahore, to explore our furniture collections, interior solutions, and Corian designs.",
   },
   {
-    question: "Do you offer warranty on your products?",
+    question: "Do you offer installation and after-sales support?",
     answer:
-      "Yes. Our furniture is backed by a warranty covering manufacturing defects, ensuring long-term confidence in your purchase.",
+      "Yes. Our experienced team provides professional installation along with after-sales support to ensure complete customer satisfaction.",
   },
 ];
 

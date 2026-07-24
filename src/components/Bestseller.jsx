@@ -1,28 +1,28 @@
-import bestseller1 from "../assets/images/bestseller1.jpg";
-import bestseller2 from "../assets/images/bestseller2.webp";
+import bestseller1 from "../assets/images/4.jpeg";
+import bestseller2 from "../assets/images/safo.jpg";
 import bestseller3 from "../assets/images/bestseller3.webp";
-import bestseller4 from "../assets/images/bestseller4.webp";
+import bestseller4 from "../assets/images/sofas.jpg";
 
 const products = [
   {
     image: bestseller1,
     title: "Up Your Home Value.",
-    price: "FROM 31,945",
+    // price: "FROM 31,945",
   },
   {
     image: bestseller2,
     title: "Made in Pakistan.",
-    price: "FROM 21,950",
+    // price: "FROM 21,950",
   },
   {
     image: bestseller3,
     title: "Luxury Walk-In Closets.",
-    price: "FROM 9,2500",
+    // price: "FROM 9,2500",
   },
   {
     image: bestseller4,
     title: "Modern Living Spaces.",
-    price: "FROM 7,1050",
+    // price: "FROM 7,1050",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function BestSeller() {
       <div className="max-w-8xl mx-auto px-5 lg:px-8">
         {/* Heading */}
         <h2 className="font-fustat text-2xl md:text-5xl font-regular text-[#232323] mb-10">
-          Best Sellers
+          Best Design
         </h2>
 
         {/* Grid */}
@@ -54,9 +54,9 @@ export default function BestSeller() {
                   {item.title}
                 </h3>
 
-                <p className="mt-3 text-sm tracking-[3px] uppercase text-[#3a3a3a]">
+                {/* <p className="mt-3 text-sm tracking-[3px] uppercase text-[#3a3a3a]">
                   {item.price}
-                </p>
+                </p> */}
               </div>
             </div>
           ))}

@@ -22,16 +22,16 @@ export default function Navbar() {
   }, []);
 
   const navItems = [
-    "Closets",
-    "Furniture",
-    "Showroom",
-    "Explore",
-  ];
+  "Furniture",
+  "Interior",
+  "Corian",
+  "Showroom",
+];
 
   return (
     <>
      <div className="h-12 bg-[#2f2f32] text-white flex items-center justify-center text-xs md:text-sm relative z-[60]">
-  Pakistan's top rated closet & furniture brand.
+  Pakistan's top rated Home Art Studio.
 </div>
 
       {/* Navbar */}
@@ -83,13 +83,13 @@ export default function Navbar() {
             {/* Center Logo */}
 
             <div
-              className={`absolute left-1/2 -translate-x-1/2 text-4xl tracking-[8px] font-light transition ${
+              className={`absolute left-1/2 -translate-x-1/2 text-2xl  font-light transition ${
                 scrolled
                   ? "text-black"
                   : "text-white"
               }`}
             >
-               CANOA
+               Home Art Studio
             </div>
 
             {/* Right */}

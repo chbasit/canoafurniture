@@ -1,4 +1,4 @@
-import sliderImage from "../assets/images/slider.webp";
+import sliderImage from "../assets/images/1.webp";
 
 export default function HeroSection() {
   return (
@@ -22,10 +22,11 @@ export default function HeroSection() {
             Modern Living
           </h1>
 
-          <p className="mt-6 text-white/90 text-lg md:text-xl font-normal max-w-2xl mx-auto">
-            Discover timeless furniture designed to transform your home with
-            elegance, comfort and exceptional craftsmanship.
-          </p>
+          <p className="mt-6 text-white/90 text-lg md:text-2xl font-semibold max-w-2xl mx-auto">
+  Discover premium furniture, elegant interior solutions, and custom Corian
+  designs crafted to transform your living and commercial spaces with style,
+  functionality, and lasting quality.
+</p>
 
           <button className="mt-10 bg-white text-black px-8 py-4 font-medium hover:bg-neutral-200 transition">
             Explore Collection
